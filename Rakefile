@@ -9,7 +9,6 @@ end
 
 desc 'Run tests'
 task :default => :test do
-  sh 'ruby ./test/todolist_project_test.rb'
 end
 
 Rake::TestTask.new(:test) do |t|
